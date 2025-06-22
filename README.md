@@ -12,3 +12,6 @@
 * npm install
 * npm run dev
 
+# Create Contact Page
+* add Github and Email Contact Information
+* add Contact Forms
