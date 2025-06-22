@@ -1,0 +1,5 @@
+export {default as Home} from './Home/Index'
+export {default as About} from './About/Index'
+export {default as Education} from './Education/Index'
+export {default as Project} from './Project/Index'
+export {default as Contact} from './Contact/Index'
