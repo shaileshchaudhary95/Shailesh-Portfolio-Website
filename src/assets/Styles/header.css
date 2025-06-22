@@ -41,11 +41,11 @@
     color: #000;
 }
 
-.nav-item{
+.nav-item {
     position: relative;
 }
 
-.active::before{
+.active::before {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -82,7 +82,7 @@
         left: 0;
     }
 
-    .active::before{
+    .active::before {
         width: 0;
     }
 
