@@ -12,3 +12,5 @@
 * npm install
 * npm run dev
 
+# Education Page create
+* My Education add

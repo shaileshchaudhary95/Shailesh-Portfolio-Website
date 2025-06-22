@@ -1,8 +1,12 @@
+import Educationditails from "./Educationditails"
+import '../../assets/Styles/education.css'
 
 function Index() {
   return (
-    <section className="education section">
-      <h1>Education Page</h1>
+    <section className="education section container">
+      <div className="education-container">
+        <Educationditails />
+      </div>
     </section>
   )
 }
