@@ -1,0 +1,94 @@
+.home {
+    margin: auto;
+}
+
+.home-container {
+    padding: 1rem 0;
+}
+
+.home-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.home-hey{
+    font-size: 1.6rem;
+    font-weight: 500;
+    display: flex;
+    gap: .5rem;
+}
+
+.home-hey span img{
+    width: 30px;
+}
+
+.home-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.home-subtitle{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.home-description{
+    font-size: 1.5rem;
+}
+
+.social-icon{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.icons{
+    font-size: 1.5rem;
+    border: 1px solid #3333;
+    padding: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.home-info{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.home-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid #3333;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.home-number{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.home-text{
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:768px) {
+    .home-info{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .home-box{
+        width: 100%;
+    }
+}
