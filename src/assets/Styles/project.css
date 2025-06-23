@@ -1,0 +1,76 @@
+.project {
+    margin: auto;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.project-ditails {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 0;
+    gap: 2rem;
+}
+
+.project-ditails:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.project-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.project-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.project-tools {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin: .5rem 0;
+}
+
+.project-tag {
+    font-size: .9rem;
+    font-weight: 600;
+    border: none;
+    background: #3333;
+    padding: .3rem .5rem;
+    border-radius: .5rem;
+}
+
+.project-description {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: .5rem 0;
+}
+
+.project-btn {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+@media screen and (max-width:768px) {
+    .project-container {
+        gap: 1rem;
+    }
+
+    .project-ditails {
+        flex-direction: column !important;
+        gap: 1rem;
+    }
+}

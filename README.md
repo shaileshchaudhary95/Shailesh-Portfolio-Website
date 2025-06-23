@@ -12,6 +12,20 @@
 * npm install
 * npm run dev
 
+# Home Page Create
+* Add My Information and Social Icons
+* Add Service 
+
+# About Page
+* More Information and Download My Resume
+* My Skill
+
+# Education Page create
+* My Education add
+
+# Create Project Page
+* add Four project add
+
 # Create Contact Page
 * add Github and Email Contact Information
 * add Contact Forms

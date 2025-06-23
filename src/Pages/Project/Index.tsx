@@ -1,8 +1,12 @@
+import Projectcard from "./Projectcard"
+import '../../assets/Styles/project.css'
 
 function Index() {
   return (
-    <section className="project section">
-      <h1>Project Page</h1>
+    <section className="project section container">
+      <div className="project-container">
+        <Projectcard />
+      </div>
     </section>
   )
 }
