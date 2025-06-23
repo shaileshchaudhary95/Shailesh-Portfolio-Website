@@ -25,3 +25,7 @@
 
 # Create Project Page
 * add Four project add
+
+# Create Contact Page
+* add Github and Email Contact Information
+* add Contact Forms
