@@ -19,3 +19,6 @@
 # About Page
 * More Information and Download My Resume
 * My Skill
+
+# Education Page create
+* My Education add
